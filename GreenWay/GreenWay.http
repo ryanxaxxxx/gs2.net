@@ -1,0 +1,6 @@
+@GreenWay_HostAddress = http://localhost:5185
+
+GET {{GreenWay_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
