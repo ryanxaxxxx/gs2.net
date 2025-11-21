@@ -88,6 +88,23 @@ Os testes incluem:
 - Testes de controllers com banco em memória
 - Testes de Health Check
 
+Links dos Deploys da API
+Informações de Acesso
+Banco de Dados Oracle:
+Host: oracle.fiap.com.br:1521/orcl
+User ID: rm555924
+Password: 030905
+API Key (Autenticação):
+Header: X-Api-Key
+Valor: dev-secret-key-change-me
+URLs Locais (Desenvolvimento):
+HTTPS: https://localhost:7228
+HTTP: http://localhost:5185
+Swagger: https://localhost:7228/swagger ou http://localhost:5185/swagger
+Como Testar
+Exemplo de requisição com cURL (PowerShell):
+
+
 
 ### Logging e Tracing
 - **Logging**: Todos os controllers utilizam `ILogger<T>` para registrar operações
