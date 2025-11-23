@@ -98,18 +98,18 @@ Host: oracle.fiap.com.br:1521/orcl
 User ID: rm555924
 Password: 030905
 API Key (Autenticação):
-Header: X-Api-Key
 Valor: dev-secret-key-change-me
 URLs Locais (Desenvolvimento):
 HTTPS: https://localhost:7228
 HTTP: http://localhost:5185
 Swagger: https://localhost:7228/swagger ou http://localhost:5185/swagger
 Como Testar
-Exemplo de requisição com cURL (PowerShell):
-
-
 
 ### Logging e Tracing
 - **Logging**: Todos os controllers utilizam `ILogger<T>` para registrar operações
 - **Tracing**: `ActivitySource` configurado para rastreamento distribuído
 - Logs incluem informações sobre requisições, erros e operações do banco de dados
+
+
+👨‍💻 Integrantes
+Ryan Fernando Lúcio da Silva - 555924/ Lucas Henrique de Souza Santos - 558241/ Mariana Roberti Neri - 556284
