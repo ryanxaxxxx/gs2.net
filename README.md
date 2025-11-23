@@ -10,6 +10,9 @@ API RESTful para gerenciar mobilidade sustentável corporativa, permitindo:
 - Perfil de transporte (endereço, meio de transporte, horários)
 
 
+### Link do vídeo: https://youtu.be/kRExeWotJWA
+
+
 #### Outros recursos
 - Segurança via API Key (cabeçalho `dev-secret-key-change-me`)
 - Swagger/OpenAPI com documentação completa
